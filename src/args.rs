@@ -1,6 +1,6 @@
 use clap::Parser;
 
-/// Rip Grep. Simple Grep clone
+/// Use getimgs to bulk download images from a link list file.
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 pub struct Args {
